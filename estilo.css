@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    color: #000000;
+}
+
+header {
+   
+    background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+
+img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    box-shadow: 5px 5px 5px 3px black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+    background: linear-gradient(90deg, rgba(80,5,255,1) 0%, rgba(233,0,0,1) 50%);
+    border: 2px solid #000000;
+    border-radius: 10%;
+    padding: 0.3% 0.3%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    h1 { 
+      font-size: 55px;
+      text-transform: uppercase; 
+      letter-spacing: 4px;
+      font-family: 'Audiowide';
+      text-shadow: 7px 7px 7px rgba(255, 0, 0, 0.884);
+      color: rgb(0, 0, 0);
+    }
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      color: #fa0000; 
+    }
+    p {
+      text-transform: uppercase;
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 95%;
+      letter-spacing: normal;
+
+      }
+
+.footer {
+    background-color: aqua;
+}
+ 

@@ -1,0 +1,38 @@
+.red__social{
+  display: flex;
+  justify-content: center;
+  background-color: #b5b1b1;
+  padding: 2rem;
+}
+
+.icom {
+  display: flex;
+  flex-direction: column;
+}
+
+.icom__img{
+  background: red;
+  background-size: cover;
+  height: 70px;
+  background-position: center;
+  width: 70px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.icom__whatsapp--img{
+  background-image: url('https://cdn-icons-png.flaticon.com/128/1384/1384007.png');
+}
+
+.icom__instagram--img{
+  background-image: url('https://cdn-icons-png.flaticon.com/128/1384/1384015.png');
+}
+
+.icom__gitHub--img{
+  background-image: url('https://cdn-icons-png.flaticon.com/128/25/25657.png');
+}
+
+.icom__linkedin--img{
+  background-image: url('https://cdn-icons.flaticon.com/png/128/3669/premium/3669739.png?token=exp=1655567665~hmac=116f4d8ca0e1de7bfe1545e3ea21722a');
+}

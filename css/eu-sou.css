@@ -1,0 +1,22 @@
+.eu__sou{
+  background-color: #b5b1b1;
+}
+
+.eu__sou h2 {
+  text-align:justify;
+  text-transform:20px;
+  letter-spacing: 3px;
+  color: #fa0000; 
+  padding: 1rem 0 0 1rem;
+  
+}
+
+p {
+  text-align:justify;
+  text-indent: 20px;
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 100%;
+  letter-spacing: 2%;
+  padding: 0 0 1rem 1rem;
+}

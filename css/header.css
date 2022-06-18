@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.cabecalho{
+  background-image: url(https://www.significadofacil.com/wp-content/uploads/2019/07/background-1200x800.jpg);
+  display: flex;
+}
+
+.foto{
+  width: 20%;
+  height: 30%;
+  position: relative;
+  box-shadow: 5px 5px 5px 3px black;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 03%;
+}
+
+.menu__lista {
+  display: flex;
+  justify-content: flex-end;
+  margin: 05% -65% 0 0;
+}
+
+.menu__item {
+  list-style: none;
+}
+
+.menu__link {
+  color: #b4b6c6;
+  font-size: 20px;
+  margin: 1rem;
+  text-decoration: none;
+  box-shadow: 10px 10px 5px 0px rgba(227,20,20,0.75);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+.menu__nome{
+  display: flex;
+  justify-content: center;
+}
+
+.nome{
+  font-size: 70px;
+  text-transform: uppercase; 
+  letter-spacing: 6px;
+  font-family: 'Audiowide';
+  text-shadow: 7px 7px 7px rgba(255, 0, 0, 0.884);
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -200px;
+}
+
+.profissao{
+  font-size: 45px;
+  text-align: center;
+  text-shadow: -4px 0px 0px rgba(162,153,153,0.6);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin: -100px 0 0 -10px;
+}

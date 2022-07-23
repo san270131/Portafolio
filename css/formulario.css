@@ -64,3 +64,7 @@ body{
     cursor: pointer;
     border: none;
 }
+
+.fixar{
+  margin-top: -135px;
+}

@@ -26,24 +26,67 @@
     </div>
 </header>
   
-  <form action="" class="formulario">
-        <h1 class="formulario__titulo">Contata-me</h1>
+  <form id="form" class="formulario">
+    <h1 class="formulario__titulo">Contata-me</h1>
+       <div class="form-control">
+          <label for="username">Nome</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+            class="formulario__input"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
 
-        <input type="text" class="formulario__input">
-        <label for="" class="formulario__label">Nome</label>
-       
-        <input type="text" class="formulario__input">
-        <label for="" class="formulario__label">E-mail</label>
+        <div class="form-control">
+          <label for="email">E-mail</label>
+          <input 
+            type="text" 
+            id="email" 
+            placeholder="Digite seu email.." 
+            class="formulario__input"/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
 
-        <input type="text" class="formulario__input">
-        <label for="" class="formulario__label">Telefone</label>
+        <div class="form-control">
+          <label for="telefone">Telefone</label>
+          <input
+            type="tel"
+            id="telefone"
+            placeholder="Digite sue telefone com (DDD)..."
+            class="formulario__input"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de erro</small>
+        </div>
 
-        <input type="text" class="formulario__input">
-        <label for="" class="formulario__label">Mensagem</label>
-
-        <input type="submit" class="formulario__submit">
-    </form>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  <br>
+   <section class="red__social">
+    <div class="icom">
+      <div class="icom__img icom__whatsapp--img"></div>
+    </div> 
+     <div class="icom">
+      <div class="icom__img icom__instagram--img"></div>
+    </div> 
+     <div class="icom">
+      <div class="icom__img icom__gitHub--img"></div>
+    </div> 
+     <div class="icom">
+      <div class="icom__img icom__linkedin--img"></div>
+    </div> 
+  </section>
+  
     <script src="formulario.js"></script>
+    <script src="https://kit.fontawesome.com/428b8f6aac.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

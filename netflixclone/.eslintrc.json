@@ -16,6 +16,7 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "import/no-anonymous-default-export":"off"
+       "semi": ["erro", "always"],
+       "quotes": ["erro", "double"]
     }
 }

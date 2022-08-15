@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../src/App.css'
+import fetch from "node-fetch";
+import '../src/App.css';
 import Tmdb from '../src/Tmdb';
 import movieRow from './componentes/movieRow';
 

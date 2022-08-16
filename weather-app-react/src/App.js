@@ -27,7 +27,7 @@ function App() {
             <p>20%</p>
           </div>
           <div className='wind'>
-            12 MP
+            12 MPH
           </div>
         </div>
       </div>
